@@ -1,0 +1,33 @@
+<!-- Escreva um programa em JavaScript que exiba na tela a soma dos
+elementos de uma matriz. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soma dos Elementos da Matriz</title>
+</head>
+<body>
+
+    <form id="formulario">
+        <label for="linhas">Número de Linhas:</label>
+        <input type="number" id="linhas" name="linhas">
+        <br>
+        <label for="colunas">Número de Colunas:</label>
+        <input type="number" id="colunas" name="colunas">
+        <br>
+        <button type="button" id="criarMatriz">Criar Matriz</button>
+    </form>
+
+    <div id="matrizInput" style="display: none;">
+        <h2>Preencha a Matriz:</h2>
+        <div id="inputs"></div>
+        <button type="button" id="calcularSoma">Calcular Soma</button>
+    </div>
+
+    <div id="resultado"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

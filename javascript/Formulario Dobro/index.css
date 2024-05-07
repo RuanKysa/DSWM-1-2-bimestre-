@@ -1,0 +1,26 @@
+#calcular{
+    width: 30em;
+}
+
+button:hover{
+    background-color: blue;
+    color: white;
+}
+
+button{
+    background-color: rgb(231, 228, 21);
+    color: rgb(0, 0, 0);
+    width: 38.6em;
+}
+
+label{
+    font-size:xx-large;
+}
+
+input{
+    width: 38em;
+}
+
+    section{
+        display: grid;
+    }
